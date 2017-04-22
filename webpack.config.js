@@ -39,15 +39,11 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery'
-    }),
     extractCSS
   ],
   resolve: {
     modules: [
-      'D:/WINDOWS/GD2/web/dev/_npm/libs/jquery_3.1.1/node_modules'
+      '../node_modules'
     ]
   }
 };
